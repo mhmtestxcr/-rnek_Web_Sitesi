@@ -1,0 +1,35 @@
+{
+  "employees": [],
+  "teams": [],
+  "indexteams": [],
+  "indexservice": [],
+  "aboutmissionheads": [],
+  "aboutmissions": [],
+  "aboutteams": [],
+  "aboutquestions": [],
+  "aboutsponsors": [
+    {
+      "aboutsponsor": "https://www.selcuk.edu.tr/amblem.png",
+      "aboutsponsor1": "",
+      "aboutsponsor2": "",
+      "aboutsponsor3": "",
+      "id": 1
+    }
+  ],
+  "services": [],
+  "servicestodos": [],
+  "contacts": [
+    {
+      "contact": "https://pazarlamasyon.com/wp-content/uploads/2020/04/1586451713688-b-nvbnvbnvb.jpg",
+      "contact1": "asdasd",
+      "contact2": "asdasd",
+      "contact3": "https://pazarlamasyon.com/wp-content/uploads/2020/04/1586451713688-b-nvbnvbnvb.jpg",
+      "contact4": "asdasd",
+      "contact5": "asdasd",
+      "contact6": "https://pazarlamasyon.com/wp-content/uploads/2020/04/1586451713688-b-nvbnvbnvb.jpg",
+      "contact7": "adsasd",
+      "contact8": "asdas",
+      "id": 1
+    }
+  ]
+}

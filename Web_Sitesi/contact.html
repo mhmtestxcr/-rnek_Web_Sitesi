@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İsar Yazılım</title>
+    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+<!-- logo ve navbar menu yapımı -->
+<div id="firstcontainerfuild">
+
+  <img id="isarback" class="contact-img" src="/images/come-on-join.png">
+
+    <div id="navbarrow" class="row">
+
+        <div id="navbarcol" class="col" >
+
+          <ul class="nav justify-content-end container-fluid">
+
+            <img class="isar" id="isar" src="/images/isar_logo.png">
+
+            <li class="nav-item">
+
+              <a id="nav-link" class="nav-link  effect-underline" aria-current="page" href="/index.html">Anasayfa</a>
+
+            </li>
+            <li class="nav-item dropdown menu">
+              
+                <a id="nav-link" class="nav-link " href="/about.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Hakkımızda</a>
+
+                <div  class="dropdown-menu acilir-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                  <a id="home-abut-dropdown"  class="dropdown-item" href="/about.html">Misyon & Vizyon</a>
+
+                  <a id="home-abut-dropdown"  class="dropdown-item" href="/about.html">Biz Kimiz?</a>
+
+                  <a  id="home-abut-dropdown"  class="dropdown-item" href="/about.html">Bilmeniz gerekenler</a>
+
+                  <a id="home-abut-dropdown"  class="dropdown-item" href="/about.html">Soru-Cevap</a>
+
+                  <a  id="home-abut-dropdown" class="dropdown-item" href="/about.html">Sponsorlar</a> 
+                  
+                </div>
+
+            </li>       
+            </li>
+            <li class="nav-item">
+
+              <a id="nav-link"  class="nav-link  effect-underline " href="/product.html">Ürünler</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a id="nav-link"  class="nav-link  effect-underline " href="services.html">Hizmetler</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a id="nav-link" class="nav-link  effect-underline" href="contact.html">İletişim</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+    </div>
+<!-- Bizimle iletişime geçme yolları bölümü yapımı -->
+<section class="container py-5">
+
+      <div class="row text-center pt-3">
+
+          <div class="col-lg-6 m-auto">
+
+              <h1 id="contact-h1" class="h1">Bizle İletişime Geçmenin Yolları</h1>
+
+          </div>
+
+      </div>
+
+      <div id="contactlist" class="row">
+
+          <!-- <div id="contactrow" class="col-12 col-md-4 p-5 mt-3">
+
+              <a href="#"><img src="/images/iletisim_telefon.png" class="rounded-circle img-fluid border"></a>
+
+              <h5 id="contact-h5" class="text-center mt-3 mb-3">Telefom Numarası</h5>
+
+              <p id="contact-p" class="text-center"><a class="btn">0551 126 9890</a></p>
+
+          </div>
+
+          <div  id="contactrow" class="col-12 col-md-4 p-5 mt-3">
+
+              <a href="#"><img src="/images/iletisim_sosyalmedya.png" class="rounded-circle img-fluid border"></a>
+
+              <h2 id="contact-h5" class="h5 text-center mt-3 mb-3">Sosyal Medya</h2>
+
+              <p id="contact-p" class="text-center"><a class="btn">mhmtestxcr</a></p>
+
+          </div>
+
+          <div  id="contactrow" class="col-12 col-md-4 p-5 mt-3">
+
+              <a href="#"><img src="/images/iletisim_diğer.jpg" class="rounded-circle img-fluid border"></a>
+
+              <h2 id="contact-h55" class="h5 text-center mt-3 mb-3">E-mail</h2>
+
+              <p id="contact-p" class="text-center"><a class="btn"> mhmtestxcr@gmail.com</a></p>
+
+          </div> -->
+
+      </div>
+
+  </section>
+<!-- FORM bölümü yapımı -->
+  <section class="intro">
+
+    <div class="bg-image h-100">
+
+      <div class="mask d-flex align-items-center h-100">
+
+        <div class="container">
+
+          <div id="contactpadding" class="row justify-content-center">
+
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              
+              <div class="contactform" >
+
+                <div class="card-body p-5 text-white">
+  
+                  <div class="my-md-5">
+  
+                    <div class="text-center pt-1">
+
+                      <i class="fas fa-user-astronaut fa-3x"></i>
+
+                      <h1 id="contactformhead" class="fw-bold my-5 text-uppercase">İLETİŞİME GEÇMEK İÇİN..</h1>
+
+                    </div>
+  
+                    <div  id="contactformhead" class="form-outline form-white mb-4">
+
+                      <input type="email" id="typeEmail" class="form-control form-control-lg" />
+
+                      <label  class="form-label" for="typeEmail">Email</label>
+
+                    </div>
+  
+                    <div id="contactformhead"  class="form-outline form-white mb-4">
+
+                      <input type="password" id="typePassword" class="form-control form-control-lg" />
+
+                      <label class="form-label" for="typePassword">Password</label>
+
+                    </div>
+
+                    <div  id="contactformhead"  class="form-outline form-white mb-4">
+
+                      <input type="email" id="typeEmaill" class="form-control form-control-lg" />
+
+                      <label class="form-label" type="submit" >Adres</label>
+
+                    </div>
+
+                    <div id="contactformhead"  class="form-check">
+
+                      <input
+
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+
+                      />
+
+                      <label id="contactformhead"  class="form-check-label" for="flexCheckDefault">
+
+                        Onaylıyorum
+
+                      </label>
+
+                    </div>
+
+                    <div class="text-center py-5">
+
+                      <button id="contactbutton" class="btn btn-light btn-lg btn-rounded px-5" type="submit">Gönder</button>
+
+                    </div>
+
+                  </div> 
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+<!-- Google map ybölümüm yapımı -->
+
+  <div class="row"> 
+
+    <div class="col">
+      
+      <iframe style="margin: 0; padding: 0%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2531389455903!2d-89.23024619999998!3d48.4516724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923dbfe697737%3A0xc9d925c9bc9573fa!2s116+Bruce+St%2C+Thunder+Bay%2C+ON+P7A+5W6!5e0!3m2!1sen!2sca!4v1424272264157" width="1910" height="400" frameborder="0" style="border:0"></iframe>
+
+</div>
+<!--İletişim bölümü yapımı  -->
+<footer class="nb-footer">
+
+  <div class="container">
+  
+  <div class="row">
+  
+  <div class="col-sm-12">
+  
+    <div class="about">
+  
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit eveniet laborum, harum quia corporis at repellendus est aspernatur temporibus unde saepe facilis expedita, et nobis incidunt vitae. Quisquam ea voluptates commodi aspernatur magnam at cupiditate quidem, nostrum porro pariatur!</p>
+  
+        <div class="social-media" >
+  
+          <ul class="list-inline">
+  
+            <li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
+  
+          </ul>
+  
+        </div>
+  
+     </div>
+  
+  </div>
+  
+    <div class="col-md-3 col-sm-6">
+  
+      <div class="footer-info-single">
+  
+        <h2 class="title">Anasayfa</h2>
+        
+        <ul class="list-unstyled">
+  
+          <li><a href="/index.html" title=""><i class="fa fa-angle-double-right"></i> Anasayfa</a></li>
+  
+          <li><a href="/about.html" title=""><i class="fa fa-angle-double-right"></i>Hakkımızda</a></li>
+  
+          <li><a href="/product.html" title=""><i class="fa fa-angle-double-right"></i>Ürünler</a></li>
+  
+          <li><a href="/services.html" title=""><i class="fa fa-angle-double-right"></i>Hizmetler</a></li>
+  
+          <li><a href="/contact.html" title=""><i class="fa fa-angle-double-right"></i>İletişim</a></li>
+  
+        </ul>
+  
+      </div>
+  
+    </div>
+  
+    <div class="col-md-3 col-sm-6">
+  
+        <div class="footer-info-single">
+  
+          <h2 class="title">Hakkımızda</h2>
+  
+          <ul class="list-unstyled">
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>Misyon & Vizyon</a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>Biz Kimiz?</a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>Bilmemiz Gerekenler</a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>Soru-Cevap</a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>Sponsorlar</a></li>
+  
+          </ul>
+  
+        </div>
+  
+    </div>
+  
+    <div class="col-md-3 col-sm-6">
+  
+        <div class="footer-info-single">
+  
+          <h2 class="title">Ürünler</h2>
+  
+          <ul class="list-unstyled">
+  
+            <li><a href="/product.html" title=""><i class="fa fa-angle-double-right"></i>Ürünler</a></li>
+  
+          </ul>
+  
+        </div>
+  
+    </div>
+  
+    <div class="col-md-3 col-sm-6">
+  
+        <div class="footer-info-single">
+  
+          <h2 class="title">İletişim</h2>
+  
+          <ul class="list-unstyled">
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>0551 126 9890</a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>Bosna Hersek Mahallesi Şenay Sokak Perlit Sitesi B/blok 15/6</a></li>
+  
+            <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>mhmtestxcr@gmail.com</a></li>
+  
+          </ul>  
+  
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <section class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Copyright © 2017. Your Company.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </footer>
+  </div>
+
+
+</body>
+<script type="module" src="/bundles/bundle.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+</html>
